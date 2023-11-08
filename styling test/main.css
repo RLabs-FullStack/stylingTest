@@ -1,0 +1,91 @@
+/****************************************************************************************************************/
+/****************************************************************************************************************/
+/********************************************* Main CSS *********************************************************/
+/****************************************************************************************************************/
+/****************************************************************************************************************/
+/****************************************************************************************************************/
+
+body {
+	background-color: magenta; /* For browsers that do not support gradients */
+  	background-image: linear-gradient(45deg, #333335, #ebebeb);
+  	padding: 5px 15px;
+  	color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #D322d3;
+	justify-content: center;
+}
+
+iframe {
+	width: 600px;
+	height: 400px;
+}
+
+footer {
+	background: #000;
+	color: #fff;
+	text-align: center;
+}
+
+
+/********************************************* id styles *********************************************************/
+
+#heading {
+	text-align: center;
+	font-weight: bolder;
+}
+
+#navbar {
+	padding: 7px;
+	border: 1px black solid;
+	text-align: center;
+	background-image: radial-gradient(#F6eaf6, #948c94);
+}
+
+#navbar a{
+	margin: 0px 5px;
+	padding: 5px;
+	font-size: 16px;
+}
+
+#navbar a:hover {
+  	margin: 0px 5px;
+	border: 1px black solid;
+	padding: 5px;
+	background-color: #Fac1fa;
+	color: #503e50;
+	font-size: 18px;
+	font-weight: bolder;
+}
+
+#paragraph1 {
+	background-image: linear-gradient(to right, #A9DBF6, #445862);
+	padding: 0.5rem;
+}
+
+#paragraph2 {
+	color: #00a2ff;
+}
+
+
+/********************************************* class styles ******************************************************/
+
+.content {
+	align-items: center;
+	text-align: center;
+	padding: 1.5rem;
+}
+
+.content img {
+	width: 50rem;
+	margin: 10px 0px;
+}
+
+.paragraph {
+	text-align: left;
+	margin: 1rem;
+	color: #cc00cc;
+}
+
+/*****************************************************************************************************************/

@@ -1,0 +1,75 @@
+/******************************************************************************/
+/******************************************************************************/
+/******************************************************************************/
+#heading {
+	background-image: radial-gradient(#92d5f8, #d3eefc);
+	text-align: center;
+	border: solid black 3.5px;
+}
+
+#navbar {
+	top: 0;
+	position: relative;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bolder;
+	left: 15;
+	right: 15;
+	padding: 2rem;
+}
+
+#second{
+	text-align: center;
+}
+
+/******************************************************************************/
+a {
+	margin: 7.5px;
+}
+
+a:hover {
+  color: #FF00FF;
+  background: yellow;
+  padding: 0px 5px;
+  font-size: 20px;
+}
+
+iframe {
+	height: 600px;
+	width: 700px;
+}
+
+body {
+	color: #ffb;
+	background-color: #000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: red;
+}
+
+footer {
+  animation-iteration-count: infinite;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+   0%   {background-color:red;}
+  50%  {background-color:yellow;}
+  100% {background-color:red;}
+}
+/******************************************************************************/
+.content {
+	padding: 5px;
+	align-content: horizontal;
+	text-align: center;
+}
+
+.content img {
+	padding: 5px;
+	width: 450px;
+	height: 360px;
+}
+/******************************************************************************/
